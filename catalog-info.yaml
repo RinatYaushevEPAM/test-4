@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Test"
+  description: "Test Desc"
+  annotations:
+    github.com/project-slug: Rinat/test-4
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "group:default/guests"
